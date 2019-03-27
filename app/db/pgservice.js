@@ -29,7 +29,7 @@ const client = new Client({
 
 function handleDisconnect() {
 
-    var port = pgconfig.port ? pgconfig.port : "5432";
+    var port = "5432";
 
     client.connect((err) => {
         if (err) {
